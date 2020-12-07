@@ -1,0 +1,23 @@
+{
+  "name": "react-backend",
+  "version": "1.0.0",
+  "description": "backend app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Shreekantha-ti/reack-backend.git"
+  },
+  "keywords": [
+    "ract",
+    "backend"
+  ],
+  "author": "shreekantha",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Shreekantha-ti/reack-backend/issues"
+  },
+  "homepage": "https://github.com/Shreekantha-ti/reack-backend#readme"
+}
