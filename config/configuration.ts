@@ -1,3 +1,5 @@
+import { LogManager } from "../common";
+
 const DEFAULT_MONGO_SERVER = "localhost";
 const DEFAULT_MONGO_PORT = 27017;
 const DEFAULT_MONGO_DB = "reacttrainingdb";
@@ -12,6 +14,7 @@ class Configuration {
             const mongoDbName = process.env.MONGO_DB || DEFAULT_MONGO_DB;
 
             connectionString = `mongodb://${mongoServer}:${mongoPort}/${mongoDbName}`;
+            LogManager.info(connectionString);
         }
 
         const settings = {
